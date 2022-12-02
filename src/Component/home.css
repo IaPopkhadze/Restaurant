@@ -1,0 +1,40 @@
+
+.headerContent {
+  background-color: var(--color-1);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  padding: 1rem;
+  gap: 1rem;
+  font-family: var(--font-family-1);
+  font-size: 1.4rem;
+}
+.homeNavigation {
+  width: 100%;
+
+  display: flex;
+  justify-content: end;
+  font-size: 2rem;
+}
+.li {
+  margin: 2rem 2rem;
+  padding: 0.4rem 1rem;
+
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: var(--color-2);
+}
+.li:hover {
+  color: var(--color-1);
+  text-shadow: 1px 1px 2px var(--color-2);
+  cursor: pointer;
+}
+#navbarActivation {
+  border-bottom: 0.2rem solid var(--color-1);
+}
+.homeNavigation {
+  display: flex;
+}
+

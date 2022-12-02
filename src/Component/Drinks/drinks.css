@@ -1,0 +1,242 @@
+.drinkSection1 img {
+  width: 100%;
+}
+.drinkSection1 {
+  position: relative;
+}
+.drinkSection1Content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.drinkSection1Content h1 {
+  font-size: 5rem;
+  color: var(--color-5);
+  font-family: var(--font-family-2);
+}
+.drinkSection1Content p {
+  font-size: 1rem;
+  color: var(--color-5);
+  width: 60%;
+  margin: 2rem 0;
+  text-align: center;
+}
+.drinkSection1Content button {
+  border: 0;
+  color: var(--color-4);
+  font-family: var(--font-family-2);
+  border-radius: 0.6rem;
+  background-color: var(--color-5);
+  font-size: 2rem;
+  width: 200px;
+  height: 3rem;
+}
+@media (max-width: 840px) {
+  .drinkSection1Content p {
+    font-size: 0.9rem;
+  }
+  .drinkSection1Content h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 630px) {
+  .drinkSection1Content p {
+    font-size: 0.7rem;
+  }
+  .drinkSection1Content h1 {
+    font-size: 1.6rem;
+  }
+  .drinkSection1Content button {
+    width: 190px;
+    height: 1.9rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .drinkSection1Content p {
+    margin: 0.5rem;
+    font-size: 0.6rem;
+  }
+}
+.drinkSection2 {
+  margin-top: 5rem;
+  width: 100%;
+}
+.section2TopContent h1 {
+  width: 50%;
+  margin: 1rem auto;
+  color: var(--color-4);
+  font-family: var(--font-family-2);
+  font-size: 3rem;
+  text-align: center;
+}
+.section2TopContent p {
+  width: 50%;
+  margin: 1rem auto;
+  color: var(--color-4);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.drinkSection2ThreeBoxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+.drinkSection2ThreeBoxes-1 {
+  width: 23%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-2);
+  color: var(--color-4);
+  font-size: 1.3rem;
+  gap: 1rem;
+}
+.drinkSection2ThreeBoxes-1-icon {
+  font-size: 2.3rem;
+  background-color: var(--color-4);
+  color: var(--color-5);
+  border-radius: 100%;
+  padding: 0.6rem 1rem;
+}
+.section2SecondBox {
+  background-color: var(--color-4);
+  color: var(--color-5);
+}
+.section2SecondIcon {
+  background-color: var(--color-5);
+  color: var(--color-4);
+}
+
+.justContent {
+  margin-top: 5rem;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--color-5);
+  columns: var(--color-4);
+  font-family: var(--font-family-2);
+  text-align: center;
+  font-size: 1.4rem;
+}
+.textPicture {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 1rem;
+}
+.textPicture-1 {
+  width: 50%;
+}
+.textPicture-2 {
+  width: 50%;
+}
+.textPicture-1 img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.textPicture-2 {
+  margin-top: 2rem;
+}
+@media (max-width: 970px) {
+  .drinkSection2ThreeBoxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .drinkSection2ThreeBoxes-1 {
+    width: 80%;
+  }
+}
+@media (max-width: 930px) {
+  .textPicture-2 {
+    margin-top: 0rem;
+  }
+}
+@media (max-width: 800px) {
+  .textPicture {
+    flex-direction: column;
+  }
+  .textPicture-1 {
+    width: 100%;
+  }
+  .textPicture-2 {
+    width: 100%;
+  }
+}
+.drinkSection3 {
+  width: 100%;
+  height: 100vh;
+}
+
+/* section3 */
+.drinkSection3 {
+  margin-top: 5rem;
+}
+.section3SixBoxes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+ 
+}
+
+.includingAllBoxes img {
+  width: 100%;
+  height: 200px;
+  border-radius: 1rem;
+}
+.sectionstyle {
+  color: var(--color-4);
+  font-family: var(--font-family-2);
+  margin-left: 1rem;
+}
+@media (max-width: 1050px) {
+  .section3SixBoxes {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .section3SixBoxes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .section3SixBoxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.drinkSectionFooter{
+  margin-top: 5rem;
+  width: 100%;
+  height: 15vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ background-color: var(--color-4);
+ align-items: center;
+ color: var(--color-5);
+ font-size: 1.3rem;
+}
+.socialMediaIcons{
+display: flex;
+gap: 1rem;
+}
+@media (max-width:600px){
+  .drinkSectionFooter{
+    font-size: 0.6rem;
+  }
+}
