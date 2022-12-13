@@ -27,9 +27,9 @@ const Food = ({ setModal }) => {
       <div className="foodContainer">
         <div className="foodContainer-1">
           {foods &&
-            foods.map((element) => {
+            foods.map((element, index) => {
               return (
-                <div className="card">
+                <div key={index} className="card">
                   <div className="imageContainer">
                     <img src={element.recipe.image} alt="" />
                   </div>

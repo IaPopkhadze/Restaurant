@@ -145,55 +145,7 @@ const totalPrice=(xinkaliAmount1*2)+(xinkaliAmount2*1.5)+(xinkaliAmount3*2.5)+(x
           </div>
         </div>
       </div>
-      <div className="xinkaliPrice">
-          <table className={totalAmount===0?'displayNone':''}>
-            <tr >
-              <th>Xinkali Name</th>
-              <th>Per Xinkali price</th>
-              <th>Amount</th>
-              <th>Price</th>
-            </tr>
-            <tr className={xinkaliAmount1===0?'displayNone': ''}>
-              <td>xinkali 1</td>
-              <td>2 GEL</td>
-              <td>{xinkaliAmount1}</td>
-              <td>{xinkaliAmount1*2} GEL</td>
-            </tr>
-            <tr className={xinkaliAmount2===0?'displayNone': ''}>
-              <td>xinkali 2</td>
-              <td>1.5 GEL</td>
-              <td>{xinkaliAmount2}</td>
-              <td>{xinkaliAmount2*1.5} GEL</td>
-            </tr>
-            <tr className={xinkaliAmount3===0?'displayNone': ''}>
-              <td>xinkali 3</td>
-              <td>2.5 GEL</td>
-              <td>{xinkaliAmount3}</td>
-              <td>{xinkaliAmount3*2.5} GEL</td>
-            </tr>
-            <tr className={xinkaliAmount4===0?'displayNone': ''}>
-              <td>xinkali 4</td>
-              <td>3.5 GEL</td>
-              <td>{xinkaliAmount4}</td>
-              <td>{xinkaliAmount4*3.5} GEL</td>
-            </tr>
-            <tr className={xinkaliAmount5===0?'displayNone': ''}>
-              <td>xinkali 5</td>
-              <td>0.5 GEL</td>
-              <td>{xinkaliAmount5}</td>
-              <td>{xinkaliAmount5*0.5} GEL</td>
-            </tr>
-            <tr className={xinkaliAmount6===0?'displayNone': ''}>
-              <td>xinkali 6</td>
-              <td>4 GEL</td>
-              <td>{xinkaliAmount6}</td>
-              <td>{xinkaliAmount6*4} GEL</td>
-            </tr>
-          </table>
-          <div id="totalPrice" className={totalAmount===0? 'displayNone' : ''}>
-            Total Price: {totalPrice} GEL
-          </div>
-      </div>
+     
 
     </div>
   );
